@@ -49,25 +49,25 @@ These models are made available for use via a web interface at https://hadokenma
 		- `History.png` - loss vs. epoch plot
 		- `Output.log` - logging information for the entire process
 	- **BandGap_SpaceGroup-Geometry_P**
-		- `BandGap_SpaceGroup-Geometry_P_Results.csv` - results of the training process
+		- `BandGap_SpaceGroup-Geometry_P_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
 		- `EnvP.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
 		- `EnvP.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
 		- `History.png` - loss vs. epoch plot
 		- `Output.log` - logging information for the entire process
 	- **BandGap_SpaceGroup-HighSymmetry-Derived_P**
-		- `BandGap_SpaceGroup-HighSymmetry-Derived_P_Results.csv` - results of the training process
+		- `BandGap_SpaceGroup-HighSymmetry-Derived_P_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
 		- `EnvP.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
 		- `EnvP.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
 		- `History.png` - loss vs. epoch plot
 		- `Output.log` - logging information for the entire process
 	- **FermiEnergy_Geometry_P**
-		- `FermiEnergy_Geometry_P_Results.csv` - results of the training process
+		- `FermiEnergy_Geometry_P_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
 		- `EnvP.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
 		- `EnvP.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
 		- `History.png` - loss vs. epoch plot
 		- `Output.log` - logging information for the entire process
 	- **GapType-Classifier_P**
-		- `GapType-Classifier_P_Results.csv` - results of the training process
+		- `GapType-Classifier_P_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
 		- `EnvP.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
 		- `EnvP.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
 		- `History.png` - loss vs. epoch plot
