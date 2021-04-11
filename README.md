@@ -33,7 +33,7 @@ These models are made available for use via a web interface at https://hadokenma
 
  - Install Keras and appropriate other Python bits
  - Load the model into Keras using the appropriate `H5` and `JSON` files
- - Call the model specifying values for the relevant inputs (note that inputs required for each model differ)
+ - Call the model specifying values for the relevant inputs (note that inputs required for each model differ - relevant features are noted in the corresponding `Output.log` file)
  - Save and load Keras models - https://www.tensorflow.org/guide/keras/save_and_serialize
  - python - How to predict from saved model in Keras ? - https://stackoverflow.com/questions/50227925/how-to-predict-from-saved-model-in-keras
 
