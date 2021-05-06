@@ -61,13 +61,13 @@ These models are made available for use via a web interface at https://hadokenma
 		- `History.png` - loss vs. epoch plot
 		- `Output.log` - logging information for the entire process
 	- **FermiEnergy_Geometry_P**
-		- `FermiEnergy_Geometry_P_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
+		- `FermiEnergy_Geometry_P_Results.csv` - results of the training process, including original <i>E<sub>F</sub></i> values and fit
 		- `EnvT.L100.L50.RELU.RELU.D0.01.E300.B200.Model.h5` - Keras model output
 		- `EnvT.L100.L50.RELU.RELU.D0.01.E300.B200.Model.json` - Keras model output
 		- `History.png` - loss vs. epoch plot
 		- `Output.log` - logging information for the entire process
 	- **GapType-Classifier_P**
-		- `GapType-Classifier_P_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
+		- `GapType-Classifier_P_Results.csv` - results of the training process, including original <i>Gap Type</i> values and fit
 		- `EnvT.L100.L50.RELU.RELU.D0.01.E300.B200.Model.h5` - Keras model output
 		- `EnvT.L100.L50.RELU.RELU.D0.01.E300.B200.Model.json` - Keras model output
 		- `Output.log` - logging information for the entire process
