@@ -43,36 +43,35 @@ These models are made available for use via a web interface at https://hadokenma
 	- `2020-Feb-16_23-33-16-PAW_PBE_Reduced_HighSymmetry-v5.00.csv` - dataset used to generate the models
 * **Models**
 	- **BandGap_NULL_P**
-		- `BandGap_NULL_P_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
-		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
-		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
+		- `BandGap_NULL_T_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E300.B200.Model.h5` - Keras model output
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E300.B200.Model.json` - Keras model output
 		- `History.png` - loss vs. epoch plot
 		- `Output.log` - logging information for the entire process
 	- **BandGap_SpaceGroup-Geometry_P**
-		- `BandGap_SpaceGroup-Geometry_P_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
-		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
-		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
+		- `BandGap_SpaceGroup-Geometry_T_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E300.B200.Model.h5` - Keras model output
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E300.B200.Model.json` - Keras model output
 		- `History.png` - loss vs. epoch plot
 		- `Output.log` - logging information for the entire process
 	- **BandGap_SpaceGroup-HighSymmetry-Derived_P**
-		- `BandGap_SpaceGroup-HighSymmetry-Derived_P_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
-		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
-		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
+		- `BandGap_SpaceGroup-HighSymmetry-Derived_T_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E300.B200.Model.h5` - Keras model output
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E300.B200.Model.json` - Keras model output
 		- `History.png` - loss vs. epoch plot
 		- `Output.log` - logging information for the entire process
 	- **FermiEnergy_Geometry_P**
 		- `FermiEnergy_Geometry_P_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
-		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
-		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E300.B200.Model.h5` - Keras model output
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E300.B200.Model.json` - Keras model output
 		- `History.png` - loss vs. epoch plot
 		- `Output.log` - logging information for the entire process
 	- **GapType-Classifier_P**
 		- `GapType-Classifier_P_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
-		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
-		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
-		- `History.png` - loss vs. epoch plot
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E300.B200.Model.h5` - Keras model output
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E300.B200.Model.json` - Keras model output
 		- `Output.log` - logging information for the entire process
 
 ## Correspondence
 
-All contacts are contained within the paper  - please feel free to contact us as you desire.
+All contacts are contained within the paper  - please feel free to contact us as you see fit.
