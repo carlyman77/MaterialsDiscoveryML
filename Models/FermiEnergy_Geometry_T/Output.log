@@ -1,0 +1,73 @@
+2021-05-02 15:09:04,954 INFO Command Line Arguments:
+2021-05-02 15:09:04,954 INFO 0: PAW_PBE_Reduced_HighSymmetry.py
+2021-05-02 15:09:04,954 INFO 1: /home/595/ceb595/Experiments
+2021-05-02 15:09:04,954 INFO 2: 2020-Feb-16_23-33-16-PAW_PBE_Reduced_HighSymmetry-v5.00.zip
+2021-05-02 15:09:04,954 INFO 3: FermiEnergy
+2021-05-02 15:09:04,954 INFO 4: Geometry
+2021-05-02 15:09:04,955 INFO 5: 300
+2021-05-02 15:09:04,955 INFO 6: T
+2021-05-02 15:09:04,955 INFO Root directory: /home/595/ceb595/Experiments
+2021-05-02 15:09:04,955 INFO Data directory: /home/595/ceb595/Experiments/Data
+2021-05-02 15:09:04,955 INFO Ouptut directory: /home/595/ceb595/Experiments/PAW_PBE_Reduced_HighSymmetry/v2/Prototyping/2021-05-02_15-09-04.952528
+2021-05-02 15:09:04,955 INFO Data file: 2020-Feb-16_23-33-16-PAW_PBE_Reduced_HighSymmetry-v5.00.zip
+2021-05-02 15:09:04,955 INFO Target column: FermiEnergy
+2021-05-02 15:09:04,955 INFO Number of columns to use: 126
+2021-05-02 15:09:04,955 INFO Columns to use: ['Compound', 'FermiEnergy', 'Lr', 'Sb', 'Hf', 'Cd', 'Kr', 'Np', 'Tl', 'Po', 'Au', 'No', 'He', 'Rg', 'Rb', 'Xe', 'Ag', 'Mc', 'Bi', 'Fm', 'Th', 'Se', 'As', 'Te', 'Zr', 'Ts', 'Hs', 'In', 'Ca', 'GeometryB', 'Ne', 'Bh', 'GeometryAlpha', 'Co', 'Sc', 'Pr', 'Ra', 'Cf', 'U', 'Eu', 'Pu', 'Cs', 'Cu', 'Ge', 'Rf', 'Bk', 'V', 'Cl', 'Ir', 'Y', 'Gd', 'Br', 'Tc', 'Sg', 'Cn', 'Am', 'Rn', 'Na', 'La', 'Ni', 'Og', 'Ti', 'Pb', 'O', 'Fe', 'W', 'Es', 'Er', 'Db', 'Dy', 'Al', 'Tm', 'C', 'GeometryA', 'S', 'Sr', 'Ru', 'Ba', 'Os', 'Fr', 'Ce', 'Yb', 'Lv', 'Fl', 'Mg', 'Pa', 'Ta', 'Sn', 'GeometryC', 'Mn', 'B', 'Ga', 'Lu', 'GeometryBeta', 'Nh', 'Re', 'Pt', 'Pm', 'Li', 'F', 'Tb', 'Ho', 'H', 'Be', 'Ar', 'Nb', 'I', 'Rh', 'GeometryGamma', 'Pd', 'Si', 'N', 'Sm', 'At', 'Ds', 'Ac', 'Md', 'Nd', 'P', 'Cm', 'K', 'Mt', 'Hg', 'Mo', 'Cr', 'Zn']
+2021-05-02 15:09:04,955 INFO Dataset: PAW_PBE_Reduced_HighSymmetry
+2021-05-02 15:09:04,955 INFO Script version: 2
+2021-05-02 15:09:04,955 INFO Test size: 0.3
+2021-05-02 15:09:04,955 INFO Layer1U: 100
+2021-05-02 15:09:04,955 INFO Layer2U: 50
+2021-05-02 15:09:04,955 INFO Epochs: 300
+2021-05-02 15:09:04,955 INFO Batch size: 200
+2021-05-02 15:09:04,955 INFO Model environment: EnvT
+2021-05-02 15:09:11,420 INFO Dataset columns:
+2021-05-02 15:09:11,420 INFO ['Species', 'Compound', 'H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne', 'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'Ar', 'K', 'Ca', 'Sc', 'Ti', 'V', 'Cr', 'Mn', 'Fe', 'Co', 'Ni', 'Cu', 'Zn', 'Ga', 'Ge', 'As', 'Se', 'Br', 'Kr', 'Rb', 'Sr', 'Y', 'Zr', 'Nb', 'Mo', 'Tc', 'Ru', 'Rh', 'Pd', 'Ag', 'Cd', 'In', 'Sn', 'Sb', 'Te', 'I', 'Xe', 'Cs', 'Ba', 'La', 'Ce', 'Pr', 'Nd', 'Pm', 'Sm', 'Eu', 'Gd', 'Tb', 'Dy', 'Ho', 'Er', 'Tm', 'Yb', 'Lu', 'Hf', 'Ta', 'W', 'Re', 'Os', 'Ir', 'Pt', 'Au', 'Hg', 'Tl', 'Pb', 'Bi', 'Po', 'At', 'Rn', 'Fr', 'Ra', 'Ac', 'Th', 'Pa', 'U', 'Np', 'Pu', 'Am', 'Cm', 'Bk', 'Cf', 'Es', 'Fm', 'Md', 'No', 'Lr', 'Rf', 'Db', 'Sg', 'Bh', 'Hs', 'Mt', 'Ds', 'Rg', 'Cn', 'Nh', 'Fl', 'Mc', 'Lv', 'Ts', 'Og', 'DftTypeName', 'BandGap', 'Density', 'Energy', 'EnergyPerAtom', 'FermiEnergy', 'GT_HalfMetal', 'GT_InsulatorDirect', 'GT_InsulatorDirectSpinPolarised', 'GT_InsulatorIndirect', 'GT_InsulatorIndirectSpinPolarised', 'GT_Metal', 'GeometryA', 'GeometryB', 'GeometryC', 'GeometryAlpha', 'GeometryBeta', 'GeometryGamma', 'KSpace', 'Volume', 'SG_1', 'SG_2', 'SG_3', 'SG_4', 'SG_5', 'SG_6', 'SG_7', 'SG_8', 'SG_9', 'SG_10', 'SG_11', 'SG_12', 'SG_13', 'SG_14', 'SG_15', 'SG_16', 'SG_17', 'SG_18', 'SG_19', 'SG_20', 'SG_21', 'SG_22', 'SG_23', 'SG_24', 'SG_25', 'SG_26', 'SG_27', 'SG_28', 'SG_29', 'SG_30', 'SG_31', 'SG_32', 'SG_33', 'SG_34', 'SG_35', 'SG_36', 'SG_37', 'SG_38', 'SG_39', 'SG_40', 'SG_41', 'SG_42', 'SG_43', 'SG_44', 'SG_45', 'SG_46', 'SG_47', 'SG_48', 'SG_50', 'SG_51', 'SG_52', 'SG_53', 'SG_54', 'SG_55', 'SG_56', 'SG_57', 'SG_58', 'SG_59', 'SG_60', 'SG_61', 'SG_62', 'SG_63', 'SG_64', 'SG_65', 'SG_66', 'SG_67', 'SG_68', 'SG_69', 'SG_70', 'SG_71', 'SG_72', 'SG_73', 'SG_74', 'SG_75', 'SG_76', 'SG_77', 'SG_78', 'SG_79', 'SG_80', 'SG_81', 'SG_82', 'SG_83', 'SG_84', 'SG_85', 'SG_86', 'SG_87', 'SG_88', 'SG_90', 'SG_91', 'SG_92', 'SG_95', 'SG_96', 'SG_97', 'SG_98', 'SG_99', 'SG_100', 'SG_102', 'SG_103', 'SG_104', 'SG_105', 'SG_106', 'SG_107', 'SG_108', 'SG_109', 'SG_110', 'SG_111', 'SG_112', 'SG_113', 'SG_114', 'SG_115', 'SG_116', 'SG_117', 'SG_118', 'SG_119', 'SG_120', 'SG_121', 'SG_122', 'SG_123', 'SG_124', 'SG_125', 'SG_126', 'SG_127', 'SG_128', 'SG_129', 'SG_130', 'SG_131', 'SG_132', 'SG_133', 'SG_134', 'SG_135', 'SG_136', 'SG_137', 'SG_138', 'SG_139', 'SG_140', 'SG_141', 'SG_142', 'SG_143', 'SG_144', 'SG_145', 'SG_146', 'SG_147', 'SG_148', 'SG_149', 'SG_150', 'SG_151', 'SG_152', 'SG_153', 'SG_154', 'SG_155', 'SG_156', 'SG_157', 'SG_158', 'SG_159', 'SG_160', 'SG_161', 'SG_162', 'SG_163', 'SG_164', 'SG_165', 'SG_166', 'SG_167', 'SG_169', 'SG_170', 'SG_171', 'SG_173', 'SG_174', 'SG_175', 'SG_176', 'SG_177', 'SG_178', 'SG_179', 'SG_180', 'SG_181', 'SG_182', 'SG_183', 'SG_184', 'SG_185', 'SG_186', 'SG_187', 'SG_188', 'SG_189', 'SG_190', 'SG_191', 'SG_192', 'SG_193', 'SG_194', 'SG_195', 'SG_196', 'SG_197', 'SG_198', 'SG_199', 'SG_200', 'SG_201', 'SG_202', 'SG_203', 'SG_204', 'SG_205', 'SG_206', 'SG_208', 'SG_210', 'SG_211', 'SG_212', 'SG_213', 'SG_214', 'SG_215', 'SG_216', 'SG_217', 'SG_218', 'SG_219', 'SG_220', 'SG_221', 'SG_222', 'SG_223', 'SG_224', 'SG_225', 'SG_226', 'SG_227', 'SG_229', 'SG_230', 'HS_I', 'HS_2', 'Mirror', 'HS_21', 'Glide', 'HS_4', 'HS_4143', 'HS_42', 'HS_4Bar', 'HS_2M', 'HS_21M', 'HS_4M', 'HS_42M', 'HS_3', 'HS_31', 'HS_32', 'HS_3Bar', 'HS_6', 'HS_61', 'HS_62', 'HS_63', 'HS_64', 'HS_65', 'HS_6Bar', 'HS_6M', 'HS_63M', 'NumberOfAtoms', 'TotalAtomicWeight', 'TotalChemicalPotential', 'TotalElectronAffinity', 'TotalElectroNegativity', 'TotalIonisationEnergy', 'TotalDensity', 'TotalNumberOfSOrbitals', 'TotalNumberOfPOrbitals', 'TotalNumberOfDOrbitals', 'TotalNumberOfFOrbitals', 'TotalNumberOfElectrons', 'TotalNumberOfSElectrons', 'TotalNumberOfPElectrons', 'TotalNumberOfDElectrons', 'TotalNumberOfFElectrons', 'ValenceElectrons']
+2021-05-02 15:09:11,420 INFO 
+2021-05-02 15:09:11,420 INFO (250403, 403)
+2021-05-02 15:09:11,420 INFO <bound method NDFrame.head of        Species Compound  ...  TotalNumberOfFElectrons  ValenceElectrons
+0           Ac      Ac1  ...                       14                 3
+1           Ac      Ac1  ...                       14                 3
+2           Ac      Ac1  ...                       14                 3
+3           Ac      Ac1  ...                       14                 3
+4           Ac      Ac1  ...                       14                 3
+...        ...      ...  ...                      ...               ...
+250398      Zr      Zr2  ...                        0                 6
+250399      Zr      Zr2  ...                        0                 6
+250400      Zr      Zr2  ...                        0                 6
+250401      Zr      Zr3  ...                        0                 9
+250402      Zr      Zr4  ...                        0                12
+
+[250403 rows x 403 columns]>
+2021-05-02 15:09:19,982 INFO Dropping excess columns...
+2021-05-02 15:09:19,983 INFO {'SG_64', 'SG_40', 'SG_74', 'SG_142', 'SG_92', 'SG_109', 'SG_179', 'HS_3Bar', 'HS_42', 'SG_70', 'SG_20', 'SG_212', 'SG_57', 'SG_67', 'SG_120', 'SG_1', 'HS_63', 'SG_41', 'SG_180', 'SG_223', 'SG_174', 'SG_44', 'HS_2', 'SG_178', 'SG_105', 'SG_58', 'HS_31', 'SG_111', 'TotalNumberOfFOrbitals', 'HS_6M', 'SG_165', 'TotalNumberOfPOrbitals', 'SG_206', 'Density', 'SG_154', 'HS_6', 'SG_85', 'SG_196', 'SG_68', 'SG_205', 'SG_38', 'HS_4143', 'SG_17', 'HS_42M', 'HS_62', 'SG_210', 'SG_86', 'SG_230', 'SG_11', 'SG_35', 'TotalNumberOfDElectrons', 'HS_6Bar', 'SG_194', 'SG_2', 'SG_214', 'SG_128', 'SG_108', 'SG_130', 'SG_220', 'SG_161', 'SG_151', 'SG_54', 'SG_145', 'SG_227', 'GT_InsulatorDirect', 'SG_160', 'TotalNumberOfSOrbitals', 'SG_225', 'SG_91', 'SG_137', 'SG_27', 'SG_185', 'SG_76', 'SG_90', 'HS_4Bar', 'NumberOfAtoms', 'SG_169', 'SG_170', 'SG_224', 'SG_166', 'SG_83', 'SG_184', 'SG_187', 'SG_138', 'SG_177', 'SG_147', 'SG_50', 'HS_32', 'SG_3', 'SG_60', 'SG_155', 'SG_4', 'SG_153', 'ValenceElectrons', 'SG_9', 'SG_7', 'SG_69', 'SG_34', 'SG_150', 'SG_198', 'SG_219', 'SG_132', 'SG_152', 'HS_64', 'SG_188', 'SG_218', 'SG_173', 'HS_3', 'SG_33', 'SG_42', 'SG_140', 'SG_159', 'SG_21', 'KSpace', 'SG_148', 'HS_21', 'SG_139', 'HS_4M', 'HS_I', 'TotalIonisationEnergy', 'SG_176', 'SG_116', 'TotalDensity', 'SG_183', 'TotalNumberOfPElectrons', 'SG_181', 'SG_203', 'SG_157', 'SG_193', 'SG_77', 'HS_63M', 'SG_46', 'SG_199', 'SG_29', 'SG_23', 'SG_163', 'SG_37', 'SG_211', 'SG_197', 'SG_131', 'SG_12', 'SG_117', 'SG_82', 'SG_16', 'SG_167', 'SG_59', 'SG_28', 'HS_21M', 'SG_88', 'SG_84', 'SG_113', 'SG_149', 'SG_32', 'SG_125', 'GT_HalfMetal', 'SG_106', 'SG_114', 'TotalNumberOfSElectrons', 'Species', 'SG_200', 'SG_98', 'SG_45', 'TotalElectroNegativity', 'SG_215', 'SG_61', 'SG_31', 'SG_14', 'SG_26', 'SG_171', 'GT_Metal', 'SG_19', 'SG_63', 'SG_13', 'SG_213', 'SG_97', 'SG_72', 'SG_104', 'SG_119', 'GT_InsulatorIndirectSpinPolarised', 'SG_39', 'SG_66', 'SG_100', 'SG_43', 'SG_186', 'EnergyPerAtom', 'SG_222', 'SG_156', 'HS_61', 'SG_110', 'SG_78', 'SG_121', 'SG_141', 'TotalChemicalPotential', 'SG_202', 'SG_208', 'SG_18', 'SG_107', 'SG_182', 'TotalAtomicWeight', 'SG_136', 'SG_216', 'SG_75', 'SG_118', 'SG_51', 'SG_164', 'TotalNumberOfElectrons', 'SG_124', 'SG_24', 'SG_80', 'TotalNumberOfFElectrons', 'SG_36', 'SG_189', 'SG_47', 'SG_190', 'HS_65', 'SG_79', 'SG_229', 'TotalElectronAffinity', 'SG_129', 'SG_143', 'SG_15', 'SG_22', 'SG_204', 'SG_175', 'SG_122', 'GT_InsulatorIndirect', 'SG_217', 'SG_201', 'SG_146', 'SG_65', 'SG_126', 'HS_4', 'BandGap', 'Glide', 'SG_103', 'SG_144', 'GT_InsulatorDirectSpinPolarised', 'SG_191', 'SG_134', 'SG_226', 'SG_53', 'Volume', 'SG_73', 'SG_115', 'SG_30', 'SG_62', 'SG_95', 'SG_55', 'SG_99', 'SG_81', 'SG_123', 'SG_5', 'SG_8', 'Energy', 'SG_48', 'SG_221', 'SG_52', 'SG_162', 'TotalNumberOfDOrbitals', 'SG_96', 'SG_127', 'SG_87', 'SG_6', 'SG_10', 'SG_56', 'SG_158', 'SG_71', 'SG_135', 'HS_2M', 'SG_112', 'SG_195', 'SG_192', 'SG_133', 'SG_25', 'Mirror', 'SG_102'}
+2021-05-02 15:09:20,035 INFO Remaining columns to use:
+2021-05-02 15:09:20,035 INFO ['Compound', 'H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne', 'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'Ar', 'K', 'Ca', 'Sc', 'Ti', 'V', 'Cr', 'Mn', 'Fe', 'Co', 'Ni', 'Cu', 'Zn', 'Ga', 'Ge', 'As', 'Se', 'Br', 'Kr', 'Rb', 'Sr', 'Y', 'Zr', 'Nb', 'Mo', 'Tc', 'Ru', 'Rh', 'Pd', 'Ag', 'Cd', 'In', 'Sn', 'Sb', 'Te', 'I', 'Xe', 'Cs', 'Ba', 'La', 'Ce', 'Pr', 'Nd', 'Pm', 'Sm', 'Eu', 'Gd', 'Tb', 'Dy', 'Ho', 'Er', 'Tm', 'Yb', 'Lu', 'Hf', 'Ta', 'W', 'Re', 'Os', 'Ir', 'Pt', 'Au', 'Hg', 'Tl', 'Pb', 'Bi', 'Ac', 'Th', 'Pa', 'U', 'Pu', 'FermiEnergy', 'GeometryA', 'GeometryB', 'GeometryC', 'GeometryAlpha', 'GeometryBeta', 'GeometryGamma']
+2021-05-02 15:09:20,035 INFO 
+2021-05-02 15:09:20,050 INFO Unique compounds = 114017
+2021-05-02 15:22:40,860 INFO Mean Absolute Error = 0.249163
+2021-05-02 15:22:40,862 INFO Root Mean Squared Error = 0.379878
+2021-05-02 15:22:40,863 INFO R^2 = 0.975808
+2021-05-02 15:22:40,866 INFO 0.00    7.209777e-08
+0.05    1.637593e-02
+0.10    3.285447e-02
+0.15    4.874817e-02
+0.20    6.529833e-02
+0.25    8.200365e-02
+0.30    9.915921e-02
+0.35    1.166492e-01
+0.40    1.350136e-01
+0.45    1.542159e-01
+0.50    1.744827e-01
+0.55    1.962200e-01
+0.60    2.205509e-01
+0.65    2.478319e-01
+0.70    2.784885e-01
+0.75    3.160058e-01
+0.80    3.613802e-01
+0.85    4.262020e-01
+0.90    5.229203e-01
+0.95    7.251735e-01
+1.00    9.491451e+00
+Name: AbsResidual, dtype: float64
+2021-05-02 15:22:40,869 INFO 0.999000 Quantile Error = 2.765868

@@ -1,4 +1,4 @@
-# R-18-Feb-2020 - ML Results from 18 Feb 2020
+# A Machine Learning Platform for the Discovery of Materials
 
 Results and models for the paper `A Machine Learning Platform for the Discovery of Materials` (Belle, Aksakalli, Russo).
 
@@ -44,32 +44,32 @@ These models are made available for use via a web interface at https://hadokenma
 * **Models**
 	- **BandGap_NULL_P**
 		- `BandGap_NULL_P_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
-		- `EnvP.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
-		- `EnvP.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
 		- `History.png` - loss vs. epoch plot
 		- `Output.log` - logging information for the entire process
 	- **BandGap_SpaceGroup-Geometry_P**
 		- `BandGap_SpaceGroup-Geometry_P_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
-		- `EnvP.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
-		- `EnvP.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
 		- `History.png` - loss vs. epoch plot
 		- `Output.log` - logging information for the entire process
 	- **BandGap_SpaceGroup-HighSymmetry-Derived_P**
 		- `BandGap_SpaceGroup-HighSymmetry-Derived_P_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
-		- `EnvP.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
-		- `EnvP.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
 		- `History.png` - loss vs. epoch plot
 		- `Output.log` - logging information for the entire process
 	- **FermiEnergy_Geometry_P**
 		- `FermiEnergy_Geometry_P_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
-		- `EnvP.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
-		- `EnvP.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
 		- `History.png` - loss vs. epoch plot
 		- `Output.log` - logging information for the entire process
 	- **GapType-Classifier_P**
 		- `GapType-Classifier_P_Results.csv` - results of the training process, including original <i>E<sub>g</sub></i> values and fit
-		- `EnvP.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
-		- `EnvP.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.h5` - Keras model output
+		- `EnvT.L100.L50.RELU.RELU.D0.01.E1000.B200.Model.json` - Keras model output
 		- `History.png` - loss vs. epoch plot
 		- `Output.log` - logging information for the entire process
 
